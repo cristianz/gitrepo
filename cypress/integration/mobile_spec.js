@@ -1,6 +1,7 @@
 describe("Mobile DE Automation Practice", () => {
   it("Initial Test", () => {
-    cy.visit("https://www.mobile.de/?lang=en");
-    cy.get("[id=qsmakeBuy]").click();
+    cy.visit("https://example.cypress.io");
+    cy.contains("Commands").click();
+    cy.contains("Viewport").click();
   });
 });
