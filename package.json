@@ -1,0 +1,14 @@
+{
+  "name": "mobilede",
+  "version": "1.0.0",
+  "description": "bla",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.2.0"
+  }
+}
